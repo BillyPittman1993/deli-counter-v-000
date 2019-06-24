@@ -22,5 +22,6 @@ def now_serving(katz_deli)
   if katz_deli.each {|name| 
   puts "Currently serving #{name}."}
   else
-  puts 
+  puts "There is nobody waiting to be served!"
+  end
 end
