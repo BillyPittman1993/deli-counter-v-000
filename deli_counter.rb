@@ -19,6 +19,8 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
-  katz_deli.each {|name| 
+  if katz_deli.each {|name| 
   puts "Currently serving #{name}."}
+  else
+  puts 
 end
